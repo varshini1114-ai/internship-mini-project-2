@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Digital Diary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loginPage">
+
+    <h1>📔 Digital Diary</h1>
+
+    <input
+    type="password"
+    id="pin"
+    placeholder="Enter PIN">
+
+    <button onclick="login()">
+        Unlock
+    </button>
+
+</div>
+
+<div id="diaryPage" style="display:none;">
+
+    <h1>📔 My Diary</h1>
+
+    <input
+    type="date"
+    id="date">
+
+    <div class="toolbar">
+
+        <button onclick="format('bold')">
+            B
+        </button>
+
+        <button onclick="format('italic')">
+            I
+        </button>
+
+        <button onclick="format('underline')">
+            U
+        </button>
+
+    </div>
+
+    <div
+    id="editor"
+    contenteditable="true">
+    </div>
+
+    <button onclick="saveEntry()">
+        Save Entry
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

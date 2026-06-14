@@ -1,0 +1,31 @@
+body{
+    font-family:Arial;
+    text-align:center;
+    background:#eef2f3;
+    padding:40px;
+}
+
+input{
+    padding:10px;
+    margin:10px;
+}
+
+button{
+    padding:10px 15px;
+    margin:5px;
+}
+
+#editor{
+    width:80%;
+    height:300px;
+    margin:auto;
+    border:1px solid gray;
+    background:white;
+    padding:15px;
+    text-align:left;
+    overflow:auto;
+}
+
+.toolbar{
+    margin:15px;
+}
